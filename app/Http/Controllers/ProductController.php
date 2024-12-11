@@ -16,6 +16,7 @@ class ProductController extends Controller
         // another stupid comment
         // another stupid comment
         // another stupid comment
+        // another stupid comment
         $products = Product::all();
         return view('products.index', compact('products'));
     }
